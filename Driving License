@@ -1,0 +1,10 @@
+#Write a program that takes the name and age of the
+#user as input and displays a message whether the
+#user is eligible to apply for a driving
+
+
+name = Aman Raj
+age = 22
+
+if age >= int(18):
+        print("You are eligible for driving")
