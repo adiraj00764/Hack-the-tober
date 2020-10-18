@@ -1,0 +1,10 @@
+#Write a program to check the divisibility of a
+#number by 7 that is passed as a parameter to the
+#user defined function.
+
+
+x = 21
+
+    if x % 7 == 0:
+        print(x, "is divisible by 7" )
+    
