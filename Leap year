@@ -1,10 +1,14 @@
-#Write a program to check if the year entered by the
-#user is a leap year or not
+#To check Leap Year
 
-year = 2020
+year = int(input("Enter the year "))
 
 if (year % 4) == 0:
     if (year % 100) == 0:
         if (year % 400) == 0:
             print("Leap year")
-        
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap Year")
+else:
+    print("Not a leap year")
