@@ -1,9 +1,18 @@
-#Write a program that uses a user defined function
-#that accepts name and gender (as M for Male,
-#F for Female) and prefixes Mr/Ms on the basis of
-#the gender.
+#To check Gender
 
-name = Aman
+name = input("Enter your name ")
+g = input("Enter your gender (Male/Female) ")
 
+
+def gender():
+    if g == "Male":
         print("Hello Mr.",name)
-  
+    elif g == "Female":
+        print("Hello Mrs.",name)
+    else:
+        print("Invalid input, type Male/Female exactly")
+
+if __name__ == '__main__':
+
+
+    gender()
