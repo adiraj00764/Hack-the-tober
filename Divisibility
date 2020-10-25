@@ -1,10 +1,15 @@
-#Write a program to check the divisibility of a
-#number by 7 that is passed as a parameter to the
-#user defined function.
+
+# to check the divisibility of a number by 7 
 
 
-x = 21
-
+x = int(input("Enter "))
+def divisibility():
     if x % 7 == 0:
         print(x, "is divisible by 7" )
+    else:
+        print(x, "is not divisible by 7" )
+if __name__ == '__main__':
+
+    divisibility()
+
     
